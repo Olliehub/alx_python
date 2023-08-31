@@ -7,7 +7,7 @@ for num in range(100):
         print("{0:02d}, ".format(num), end="")
         
     else:
-        print(num)
+        print("num")
 
 
 
