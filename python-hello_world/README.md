@@ -11,3 +11,5 @@ Task 2: Printing random positive and negative numbers
 Task 3: Printing the last digit from the variable number
 
 Task 4: Printing numbers from 0 - 98 in decimal and hexadecimal. 
+
+Task 5: In this task, we are writing a program that prints numbers from 0 - 99
