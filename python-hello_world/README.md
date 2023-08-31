@@ -8,4 +8,6 @@ task 1: Print the letters from the variable HOLBERTON
 
 Task 2: Printing random positive and negative numbers
 
-Task 3: 
+Task 3: Printing the last digit from the variable number
+
+Task 4: Printing numbers from 0 - 98 in decimal and hexadecimal. 
