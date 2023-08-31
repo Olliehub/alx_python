@@ -4,7 +4,10 @@
 
 for num in range(100):
     if num < 99:
-        print("{:02d}, ".format("num"), end='')
-    else:
-        print("{:02d} ".format(num))
+        print("{0:02d}, ".format(num), end="")
+        print()
+
+        print(num)
+        
+
 
