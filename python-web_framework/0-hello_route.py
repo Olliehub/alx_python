@@ -5,7 +5,7 @@ from flask import Flask
 # Create a Flask web application
 app = Flask(__name__)
 
-# Define a route for the root URL ("/") with strict_slashes=False
+# Create a route for the root URL ("/") with strict_slashes=False
 @app.route('/', strict_slashes=False)
 def hello_hbnb():
     return "Hello HBNB!"
