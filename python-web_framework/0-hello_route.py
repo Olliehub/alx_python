@@ -16,7 +16,7 @@ app = Flask(__name__)
 
 
 @app.route('/', strict_slashes=False)
-def hello():
+def hello_hbnb():
     '''
     A function that returns a text
 
