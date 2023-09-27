@@ -18,3 +18,12 @@ Task 0: Write a script that starts a Flask web application. Our web application 
 Routes:
 /: display “Hello HBNB!”
 You must use the option strict_slashes=False in your route definition
+
+Task 1: HBNB
+Copy the previous task to a new script that starts a Flask web application:
+
+Your web application must be listening on 0.0.0.0, port 5000
+Routes:
+/: display “Hello HBNB!”
+/hbnb: display “HBNB”
+You must use the option strict_slashes=False in your route definition
