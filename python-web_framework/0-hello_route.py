@@ -2,14 +2,29 @@
 
 from flask import Flask
 
-# Create a Flask web application
+'''
+This python script starts a Flask web application and
+displays a text on the screen.
+
+function:
+    hello(): Displays a text on the screen
+        return - Text
+'''
+
+# Create an instance of Flask class
 app = Flask(__name__)
 
-# Create a route for the root URL ("/") with strict_slashes=False
+
 @app.route('/', strict_slashes=False)
-def hello_hbnb():
+def hello():
+    '''
+    A function that returns a text
+
+    return: a text
+
+    '''
     return "Hello HBNB!"
 
 if __name__ == '__main__':
-    # Start the Flask web application on 0.0.0.0:5000
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port='5000')
+    
