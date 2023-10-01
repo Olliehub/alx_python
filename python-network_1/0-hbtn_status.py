@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 """Fetch https://alx-intranet.hbtn.io/status status
 """
 import requests
