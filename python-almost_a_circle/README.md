@@ -94,3 +94,9 @@ You must not create new attributes for this class, use all attributes of Rectang
 All width, height, x and y validation must inherit from Rectangle - same behavior in case of wrong data
 The overloading __str__ method should return [Square] (<id>) <x>/<y> - <size> - in our case, width or height
 As you know, a Square is a special Rectangle, so it makes sense this class Square inherits from Rectangle. Now you have a Square class who has the same attributes and same methods.
+
+Task 10: Square size
+Update the class Square by adding the public getter and setter size
+
+The setter should assign (in this order) the width and the height - with the same value
+The setter should have the same value validation as the Rectangle for width and height - No need to change the exception error message (It should be the one from width)
