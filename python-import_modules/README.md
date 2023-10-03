@@ -36,3 +36,9 @@ the position of the argument (starting at 1) followed by :, followed by the argu
 Your code should not be executed when imported
 The number of elements of argv can be retrieved by using: len(argv)
 You do not have to fully understand lists yet, but imagine that argv can be used just like a collection of arguments: you can use an index to walk through it. There are other ways (which will be preferred for future project tasks), if you know them you can use them.
+
+Task 2: Everything can be imported
+Write a program that imports the variable a from the file variable_load_2.py and prints its value.
+
+You are not allowed to use * for importing or __import__
+Your code should not be executed when imported
