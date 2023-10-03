@@ -51,3 +51,10 @@ you can assume name is always a string
 if value is not an integer: raise a TypeError exception, with the message <name> must be an integer
 if value is less or equal to 0: raise a ValueError exception with the message <name> must be greater than 0
 You are not allowed to import any module
+
+Task 6: Rectangle
+Write a class Rectangle that inherits from BaseGeometry (5-base_geometry.py).
+
+Instantiation with width and height: def __init__(self, width, height):
+width and height must be private. No getter or setter
+width and height must be positive integers, validated by integer_validator
