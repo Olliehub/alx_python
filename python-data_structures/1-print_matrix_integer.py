@@ -8,7 +8,7 @@ def print_matrix_integer(matrix=[[]]):
         for i in range(len(submatrix)):
             print("{:d}".format(submatrix[i]), end="")
             if i < len(submatrix) - 1:
-                print(" ", end="")
+                 print(f"{integer:3d}", end="")
         print()
 
 matrix = [[1,2,3], [4,5,6], [7,8,9]]
