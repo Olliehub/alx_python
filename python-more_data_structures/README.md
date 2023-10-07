@@ -21,3 +21,9 @@ Each value should be the square of the value of the input
 Initial matrix should not be modified
 You are not allowed to import any module
 You are allowed to use regular loops, map, etc.
+
+Task 1: Present in both
+Write a function that returns a set of common elements in two sets.
+
+Prototype: def common_elements(set_1, set_2):
+You are not allowed to import any module
