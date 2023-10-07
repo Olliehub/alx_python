@@ -50,3 +50,11 @@ Returns a list of the first n Fibonacci numbers.
 You are not allowed to import any module.
 Return an empty list if the it is not possible to generate the Fibonacci numbers for n
 You don’t need to understand __import__
+
+Task 5: Prime Number Function
+Write a Python function called is_prime that takes a number as input and returns True if the number is prime, and False otherwise.
+
+Prototype: def is_prime(number)
+Returns True if the number is prime, and False otherwise.
+You are not allowed to import any module.
+You don’t need to understand __import__
