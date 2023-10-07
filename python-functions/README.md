@@ -41,3 +41,12 @@ Prototype: def reverse_string(string)
 Returns the reversed string.
 You are not allowed to import any module.
 You don’t need to understand __import__
+
+Task 4: Fibonacci Sequence Function
+Write a Python function called fibonacci_sequence that takes a number n as input and returns a list of the first n Fibonacci numbers.
+
+Prototype: def fibonacci_sequence(n)
+Returns a list of the first n Fibonacci numbers.
+You are not allowed to import any module.
+Return an empty list if the it is not possible to generate the Fibonacci numbers for n
+You don’t need to understand __import__
