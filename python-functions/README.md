@@ -25,3 +25,11 @@ Prototype: def pow(a, b):
 Returns the value of a ^ b
 You are not allowed to import any module
 You don’t need to understand __import__
+
+Task 2: Temperature Converter Function
+Write a Python function called convert_to_celsius that takes a temperature in Fahrenheit as input and returns the temperature in Celsius.
+
+Prototype: def convert_to_celsius(fahrenheit)
+Returns the temperature in Celsius
+You are not allowed to import any module.
+You don’t need to understand __import__
